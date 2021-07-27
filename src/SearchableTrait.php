@@ -1,6 +1,6 @@
 <?php
 
-namespace Nicolaslopezj\Searchable;
+namespace Gluvia\Searchable;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Arr;
@@ -10,7 +10,7 @@ use Illuminate\Support\Str;
 
 /**
  * Trait SearchableTrait
- * @package Nicolaslopezj\Searchable
+ * @package Gluvia\Searchable
  * @property array $searchable
  * @property string $table
  * @property string $primaryKey
